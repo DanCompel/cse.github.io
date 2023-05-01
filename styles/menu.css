@@ -36,7 +36,7 @@
 }
 
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 768px) {
   .menu-style {
     display: flex;
     flex-direction: column;
@@ -47,5 +47,9 @@
   
   .menu-style li {
     margin-bottom: 0;
+  }
+
+  .menu-style a {
+    font-size: 30px;
   }
 }
