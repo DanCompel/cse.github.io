@@ -1,11 +1,12 @@
 .filters {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* center the buttons horizontally */
+  justify-content: center;
   max-width: 700px;
-  margin: 0 auto; /* center the whole filters container */
-  opacity: 0; /* set opacity to 0 initially */
-  transition: opacity 0.5s ease-in-out; /* add transition for opacity property */
+  margin: 0 auto;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  /*border: solid 1px red;*/
 }
 
 /* add class 'fade-in' to the filters container to animate the opacity */
@@ -17,7 +18,7 @@
   border: none;
   padding: 00px 10px;
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 30px;
   flex: 1 0 auto;
   margin: 10px;
   background: none;

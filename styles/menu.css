@@ -1,33 +1,33 @@
 .menu-style {
-  position: relative;
-  top: 0;
-  max-width: 100%;
-  text-align: center;
-  /*background-color: lightblue; /* toto vymaž ak nechceš modre pozadie v menu*/
-}
-
-.menu-style ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /*background-color: lightblue;*/
   margin: 0;
   padding: 0;
-  list-style: none;
+  text-align: center;
+  gap: 50px;
 }
 
 .menu-style li {
-  display: inline-block;
-  position: relative;
-  margin-right: 50px;
-  border: 1px solid black; /* toto vymaž ak nechceš rámik v menu*/
+  /*border: 1px solid black;*/
+  display: flex;
+  flex-basis: 0;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 .menu-style a {
-  display: block;
-  padding: 0 0px;
   color: black;
   font-size: 40px;
-  line-height: 55px;
   text-decoration: none;
   font-family: sans-serif;
   font-weight: 0;
+  overflow-wrap: break-word;
+  width: 100%;
 }
 
 .menu-style a:hover {
@@ -35,26 +35,3 @@
   transition: 0.3s;
 }
 
-/* Pod 1000 px zmeniť menu na topdown */
-@media (max-width: 900px) {
-  
-  .menu-style {
-    text-align: left;
-  }
-
-  .menu-style ul {
-    width: 100%;
-    display: block;
-  }
-
-  .menu-style li {
-    width: 100%;
-    display: block;
-    position: relative;
-    margin-right: 0;
-  }
-  .menu-style li a {
-    font-size: 30px; /* adjust the value to your preference */
-    line-height: 500px; /* adjust the value to your preference */
-  }
-}

@@ -1,9 +1,9 @@
 .portfolio-grid {
-  display: flex;
-  flex-wrap: wrap;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
   height: auto;
   grid-gap: 25px;
+  /*border: solid 1px blue;*/
   grid-auto-flow: dense;
   justify-items: center;
   align-items: center;
@@ -18,11 +18,11 @@
 
 
 .portfolio-image {
-  position: static;
+  position: relative;
   height: auto;
   display: flex;
   align-items: last center;
-  max-width: 500px;
+  max-width: 100%;
   opacity: 1;
   transition: opacity 1s ease-in-out;
 }
@@ -31,4 +31,25 @@
   width: 100%;
   opacity: 1;
   transition: opacity 0.5s ease-in;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /*background-color: rgba(0, 0, 0, 0.3);*/
+  color: rgba(255, 255, 255, 0);
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 50px;
+  transition: ease-in-out 0.5s;
+  text-align: center;
+}
+
+.portfolio-image:hover .overlay {
+  font-size: 70px;
+  color: white;
+  text-shadow: 0px 0px 10px rgb(83, 83, 83);
+  cursor: pointer;
 }
