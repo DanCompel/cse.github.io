@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <title>Compeľ & Schmuck - Statika</title>
+    <link rel="stylesheet" href="../styles/menu.css">
+    <link rel="stylesheet" href="../styles/projects.css">
+    <link rel="stylesheet" href="../styles/filter-buttons.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="menu-style">
+          <li><a href="../index.html">Compeľ & Schmuck</a></li>
+          <li><a href="/pages/o_nas.html">O nás</a></li>
+          <li><a href="/pages/projekty.html">Projekty</a></li>
+          <li><a href="/pages/kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+      <div class="filters">
+        <button class="filter-button active" data-tag="all">Všetky</button>
+        <button class="filter-button" data-tag="obcianske">Občianske</button>
+        <button class="filter-button" data-tag="priemyselne">Priemyselné</button>
+        <button class="filter-button" data-tag="rozne">Rôzne</button>
+      </div>
+    </header>
+    <div class="portfolio-grid">
+      <div class="portfolio-image" data-tag="obcianske">
+        <img src="../images/Nesto Revit 1.jpg" alt="Image 1">
+        <div class="overlay"><span>Nesto</span></div>
+      </div>
+      <div class="portfolio-image" data-tag="obcianske">
+        <img src="../images/Novy Ruzinov 3.jpg" alt="Image 2">
+        <div class="overlay"><span>Nový<br>Ružinov</span></div>
+      </div>
+      <div class="portfolio-image" data-tag="obcianske">
+        <img src="../images/Votrubova 2.png" alt="Image 3">
+        <div class="overlay"><span>Votrubova</span></div>
+      </div>
+      <div class="portfolio-image" data-tag="obcianske">
+        <img src="../images/Vranovska 2.png" alt="Image 4">
+        <div class="overlay"><span>Vranovská</span></div>
+      </div>
+      <div class="portfolio-image" data-tag="priemyselne">
+        <img src="../images/Mala Hala DSV Senec 2.png" alt="Image 5">
+        <div class="overlay"><span>DSV<br>Senec</span></div>
+      </div>
+      <div class="portfolio-image" data-tag="rozne">
+        <img src="../images/Vila Horsky Park 2.png" alt="Image 5">
+        <div class="overlay"><span>Vila<br>Horský<br>Park</span></div>
+      </div>
+      <div class="portfolio-image" data-tag="rozne">
+        <img src="../images/Vila Nitra 2.png" alt="Image 5">
+        <div class="overlay"><span>Vila<br>Zobor</span></div>
+      </div>
+    </div>  
+    <script src="../js/filter.js"></script>
+  </body>
+</html>
