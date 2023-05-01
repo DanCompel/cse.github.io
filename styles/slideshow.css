@@ -52,10 +52,7 @@ body {
   .slideshow-container {
     height: 60%;
   }
-    
-  .slideshow-container img {
-  }
+}      
   .caption {
     font-size: 60px
   }
-}  
