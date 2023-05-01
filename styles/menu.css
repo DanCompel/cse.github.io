@@ -1,49 +1,48 @@
 .menu-style {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  /*background-color: lightblue;*/
-  margin: 0;
   padding: 0;
   text-align: center;
-  gap: 50px;
+  margin: 10px;
+  flex-wrap: wrap;
+  flex-basis: auto;
+  white-space: nowrap;
+  margin: 0 auto;
 }
 
 .menu-style li {
-    display: inline-block;
-    flex: 1;
+  display: inline-block;
+  flex: 1;
 }
 
 .menu-style a {
-    display: block;
-    font-family: sans-serif;
-    text-decoration: none;
-    font-size: x-large;
-    color:black;
+  display: block;
+  font-family: sans-serif;
+  text-decoration: none;
+  font-size: x-large;
+  color:black;
 }
 
-.menu-style a:hover {
-  color: rgb(59, 165, 59);
-  transition: 0.3s;
-}
-
-
-@media only screen and (max-width: 768px) {
+@media (max-width: 550px) {
   .menu-style {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    display: block;
     text-align: left;
-    gap: 20px;
   }
   
   .menu-style li {
-    margin-bottom: 0;
+    display: block;
+    margin: 0;
+    border: none;
+    /*removed padding*/
+    width: 100%;
+    background-color: lightcoral;
+    border: solid 1px black;
   }
+}
 
-  @media (min-width: 1024px) {
-    .menu-style a:hover {
-        color:rgb(59, 165, 59);
-    }
+@media (min-width: 1024px) {
+  .menu-style a:hover {
+      color:rgb(59, 165, 59);
+  }
 }
