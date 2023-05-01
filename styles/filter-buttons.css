@@ -36,15 +36,15 @@
   color: rgb(59, 165, 59);
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 430px) {
   .filters {
     display: inline-block;
     text-align: left;
-    background-color: lightblue;
+    padding: 0px;
   }
   .filter-button {
     display: block;
-    margin: 10px 0;
+    padding: 0;
     
   }
 }

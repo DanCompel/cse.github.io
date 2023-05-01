@@ -28,14 +28,14 @@
   .menu-style {
     display: inline-block;
     text-align: left;
+    margin: 5px;
   }
   
   .menu-style li {
     display: block;
     border: none;
-    padding: 10px;
+    padding: 5px;
     width: 100%;
-    background-color: lightgreen;
   }
 }
 
