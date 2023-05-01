@@ -23,6 +23,7 @@
   margin: 10px;
   background: none;
   padding: 10px;
+  color:black;
 }
 
 .filter-button:hover {
@@ -37,8 +38,9 @@
 
 @media screen and (max-width: 400px) {
   .filters {
-    display: block;
+    display: inline-block;
     text-align: left;
+    background-color: lightblue;
   }
   .filter-button {
     display: block;
