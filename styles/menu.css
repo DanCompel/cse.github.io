@@ -34,10 +34,8 @@
     display: block;
     margin: 0;
     border: none;
-    /*removed padding*/
+    padding: 10px;
     width: 100%;
-    background-color: lightcoral;
-    border: solid 1px black;
   }
 }
 

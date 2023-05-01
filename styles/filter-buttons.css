@@ -22,7 +22,7 @@
   flex: 1 0 auto;
   margin: 10px;
   background: none;
-
+  padding: 10px;
 }
 
 .filter-button:hover {
@@ -39,7 +39,6 @@
   .filters {
     display: block;
     text-align: left;
-    background-color: lightgreen;
   }
   .filter-button {
     display: block;
