@@ -12,7 +12,7 @@ function showSlides() {
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].classList.add("active");
   captions.innerHTML = slides[slideIndex-1].alt;
-  setTimeout(showSlides, 3000); // Change image every 5 seconds
+  setTimeout(showSlides, 2500); // Change image every 5 seconds
 }
 
 window.addEventListener("load", function() {
