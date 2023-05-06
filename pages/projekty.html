@@ -5,6 +5,9 @@
     <link rel="stylesheet" href="../styles/menu.css">
     <link rel="stylesheet" href="../styles/projects.css?v=1">
     <link rel="stylesheet" href="../styles/filter-buttons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -24,18 +27,133 @@
         <button class="filter-button" data-tag="rozne">Rôzne</button>
       </div>
     </header>
-    <div class="portfolio-grid">
+
+    <div class="grid">
+      <div class="square">
+        <img src="../images/Nesto Revit 1.jpg" data-tag="obcianske">
+        <div class="caption">
+          <div class="caption1">Nesto C</div>
+          <div class="caption2">Realizačný projekt</div>
+        </div>
+      </div>
+      <div class="square"><img src="../images/Vila Horsky Park 2.png" data-tag="rozne">
+        <div class="caption">
+          <div class="caption1">Vila Horský Park</div>
+          <div class="caption2">Realizačný projekt</div>
+        </div>
+      </div>
+      <div class="square"><img src="../images/Novy Ruzinov 3.jpg" data-tag="obcianske">
+        <div class="caption">
+          <div class="caption1">Nový Ružinov</div>
+          <div class="caption2">Realizačný projekt</div>
+        </div>
+      </div>
+      <div class="square"><img src="../images/Votrubova 2.png" data-tag="obcianske">
+        <div class="caption">
+          <div class="caption1">Votrubova</div>
+          <div class="caption2">Realizačný projekt</div>
+        </div>
+      </div>
+      <div class="square"><img src="../images/Vranovska 2.png" data-tag="obcianske">
+        <div class="caption">
+          <div class="caption1">Vranovská</div>
+          <div class="caption2">Realizačný projekt</div>
+        </div>
+      </div>
+      <div class="square"><img src="../images/Mala Hala DSV Senec 2.png" data-tag="priemyselne">
+        <div class="caption">
+          <div class="caption1">Hala DSV Senec</div>
+          <div class="caption2">Statická Optimalizácia</div>
+        </div>
+      </div>
+      <div class="square"><img src="../images/Vila Nitra 2.png" data-tag="rozne">
+        <div class="caption">
+          <div class="caption1">Vila Nitra</div>
+          <div class="caption2">Realizačný projekt</div>
+        </div>
+      </div>
+      <div class="square">
+        <img src="../images/Nesto A 3.png" data-tag="obcianske">
+        <div class="caption">
+          <div class="caption1">Nesto A</div>
+          <div class="caption2">Projekt pre stavebné povolenie</div>
+        </div>
+      </div>
+      <div class="square"><img src="../images/RD Cadca_v4.png" data-tag="rozne">
+        <div class="caption">
+          <div class="caption1">Chata Čadca</div>
+          <div class="caption2">Realizačný projekt</div>
+        </div>
+      </div>
+      <div class="square">
+        <img src="../images/Nove Apollo.png" data-tag="rozne">
+        <div class="caption">
+          <div class="caption1">Nové Apollo - oceľová konštrukcia</div>
+          <div class="caption2">Realizačný projekt</div>
+        </div>
+      </div>
+      <div class="square"><img src="../images/old/Burgmaier 2.png" data-tag="priemyselne">
+        <div class="caption">
+          <div class="caption1">Hala Burgmaier</div>
+          <div class="caption2">Realizačný projekt</div>
+        </div>
+      </div>
+      <div class="square"><img src="../images/old/RD Bystra.png" data-tag="rozne">
+        <div class="caption">
+          <div class="caption1">Vila Bystrá</div>
+          <div class="caption2">Realizačný projekt</div>
+        </div>
+      </div>
+      <div class="square"><img src="../images/old/IDC2 1.png" data-tag="priemyselne">
+        <div class="caption">
+          <div class="caption1">Hala Sedita</div>
+          <div class="caption2">Realizačný projekt</div>
+        </div>
+      </div>
+      <div class="square"><img src="../images/old/Cargo DS 2.png" data-tag="priemyselne">
+        <div class="caption">
+          <div class="caption1">Hala Cargo DS</div>
+          <div class="caption2">Realizačný projekt</div>
+        </div>
+      </div>
+      <div class="square"><img src="../images/old/IDC1 1.png" data-tag="priemyselne">
+        <div class="caption">
+          <div class="caption1">Hala Sedita</div>
+          <div class="caption2">Realizačný projekt</div>
+        </div>
+      </div>
+      <div class="square"><img src="../images/old/IDC3 1.png" data-tag="priemyselne">
+        <div class="caption">
+          <div class="caption1">Hala Sedita</div>
+          <div class="caption2">Realizačný projekt</div>
+        </div>
+      </div>
+      <div class="square"><img src="../images/old/IDC4 1.png" data-tag="priemyselne">
+        <div class="caption">
+          <div class="caption1">Hala Sedita</div>
+          <div class="caption2">Realizačný projekt</div>
+        </div>
+      </div>
+      <div class="square"><img src="../images/old/Konrad.jpg" data-tag="priemyselne">
+        <div class="caption">
+          <div class="caption1">Hala Konrad</div>
+          <div class="caption2">Realizačný projekt</div>
+        </div>
+      </div>
+    </div>
+
+<!--     <div class="portfolio-grid">
       <div class="portfolio-image" data-tag="obcianske">
         <img src="../images/Nesto Revit 1.jpg" alt="Image 1">
         <div class="overlay"><span>Nesto</span></div>
       </div>
       <div class="portfolio-image" data-tag="rozne">
         <img src="../images/Vila Horsky Park 2.png" alt="Image 5">
-        <div class="overlay"><span>Vila<br>Horský<br>Park</span></div>
+        <div class="overlay"><span>Vila Horský Park</span></div>
       </div>
       <div class="portfolio-image" data-tag="obcianske">
         <img src="../images/Novy Ruzinov 3.jpg" alt="Image 2">
-        <div class="overlay"><span>Nový<br>Ružinov</span></div>
+        <div class="overlay"><span>Nový Ružinov</span></div>
       </div>
       <div class="portfolio-image" data-tag="obcianske">
         <img src="../images/Votrubova 2.png" alt="Image 3">
@@ -47,12 +165,24 @@
       </div>
       <div class="portfolio-image" data-tag="priemyselne">
         <img src="../images/Mala Hala DSV Senec 2.png" alt="Image 5">
-        <div class="overlay"><span>DSV<br>Senec</span></div>
+        <div class="overlay"><span>DSV Senec</span></div>
       </div>
       <div class="portfolio-image" data-tag="rozne">
         <img src="../images/Vila Nitra 2.png" alt="Image 5">
-        <div class="overlay"><span>Vila<br>Zobor</span></div>
+        <div class="overlay"><span>Vila Zobor</span></div>
       </div>
+      <div class="portfolio-image" data-tag="priemyselne">
+        <img src="../images/old/Burgmaier 2.png" alt="Image 4">
+        <div class="overlay"><span>Hala Burgmaier</span></div>
+      </div>
+      <div class="portfolio-image" data-tag="rozne">
+        <img src="../images/old/RD Bystra.png" alt="Image 5">
+        <div class="overlay"><span>Vila Bystrá</span></div>
+      </div>
+      <div class="portfolio-image" data-tag="priemyselne">
+        <img src="../images/old/Cargo DS 2.png" alt="Image 4">
+        <div class="overlay"><span>Cargo DS</span></div>
+      </div> -->
     </div>  
     <script src="../js/filter.js"></script>
   </body>

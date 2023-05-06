@@ -9,6 +9,7 @@
   flex-basis: auto;
   white-space: nowrap;
   margin: 0 auto;
+  max-width: 1024px;
 }
 
 .menu-style li {
@@ -18,7 +19,7 @@
 
 .menu-style a {
   display: block;
-  font-family: sans-serif;
+  font-family: 'roboto', sans-serif;
   text-decoration: none;
   font-size: x-large;
   color:black;
