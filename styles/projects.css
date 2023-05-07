@@ -94,7 +94,7 @@
   font-size: 25px;
   font-family: 'Roboto', sans-serif;
   text-align: left;
-/*   transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
   transform-origin: bottom left; */
 }
 
@@ -105,9 +105,9 @@
   font-size: 15px;
 }
 
-
 .square:hover .caption {
   transform: scale(1.5);
+  transform-origin: bottom left;
   z-index: 1;
 }
 
